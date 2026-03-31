@@ -379,7 +379,7 @@ The MLPerf verifier scripts checks all hyperparameters except those with names m
  |deepseekv3_671b |adamw |sequence_length |4096 |sequence length |TODO |v6.0
  |deepseekv3_671b |adamw |gradient_accumulation_steps |unconstrained |Number of fwd/bwd steps between optimizer step. |TODO |v6.0
  |deepseekv3_671b |adamw |max_steps |12000 |maximum number of steps |TODO |v6.0
- |deepseekv3_671b |adamw |moe_aux_loss_coeff |0.01 |MoE auxiliary loss coefficient |TODO |v6.0
+ |deepseekv3_671b |adamw |moe_aux_loss_coeff |0.01 |Scaling factor for the complementary sequence-wise balance loss, used to prevent extreme expert imbalance within a single sequence. |TODO |v6.0
 |===
 For the tunable hyperparameters used in the past for deprecated benchmarks see <<Deprecated benchmarks hyperparameters>>
 
